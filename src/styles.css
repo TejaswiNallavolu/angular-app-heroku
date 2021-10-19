@@ -1,0 +1,193 @@
+
+h1 {
+  font-size: 32px;
+}
+
+.header-top {
+  background: #fff;
+  border-top: 3px solid coral;
+}
+
+.login {
+  background: coral;
+  color: #fff;
+  float: right;
+  padding: 3px 20px;
+  margin: 10px;
+}
+
+.header-top p {
+  float: right;
+}
+
+.header-top img {
+  width: 100px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.menu {
+
+  background: coral;
+  height: 75px;
+}
+
+.menu ul li {
+  padding: 10px 20px;
+  display: inline-block;
+  color: #fff;
+  cursor: pointer;
+  float: right;
+  font-size: 2rem;
+}
+
+table {
+  border: 1px solid #dee2e6;
+}
+
+
+.footer {
+  border-top: 3px solid coral;
+}
+
+
+.block {
+  background: coral;
+  height: 276px;
+  padding: 35px;
+}
+
+.block li {
+  margin: 5px 0;
+}
+
+.slider img {
+  width: 100%;
+  height: 276px;
+}
+
+
+/*new styles */
+@import url("https://fonts.googleapis.com/css?family=Lato:400i,600");
+
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: 'Lato';
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+}
+
+.body {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  filter: blur(10px);
+  transform: scale(1.2);
+  background: url('https://images.unsplash.com/photo-1518002196537-b51e4e4d0f65?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=57ea43a4c76c7df170d96f844ea7c603');
+  background-size: cover;
+}
+
+@keyframes getBlurry {
+  0% {
+    filter: blur(0px);
+    transform: scale(1);
+  }
+  100% {
+    filter: blur(10px);
+    transform: scale(1.2);
+  }
+}
+
+.mainbody {
+  margin-left: 7rem;
+}
+
+.right-image {
+  border-radius: 5%;
+}
+
+.chat {
+  position: relative;
+  display: inline-block;
+  width: 60%;
+  min-width: 400px;
+  max-width: 100%;
+  animation: popFromBottom 0.5s ease-in-out;
+}
+
+@keyframes popFromBottom {
+  0% {
+    transform: translateY(300px) scale(0);
+  }
+  100% {
+    transform: translateY(0px) scale(1);
+  }
+}
+
+.notification {
+  height: 22vmin;
+  margin-left: -5%;
+}
+
+.profile {
+  display: inline-block;
+  width: 22vmin;
+  height: 22vmin;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  left: -16vmin;
+  top: -1vmin;
+  border: 1vmin solid #fff;
+}
+
+.message {
+  background: #ffe271;
+  padding: 2vmin 5vmin 2vmin 10vmin;
+  border-radius: 0px 50px 50px 0px;
+  font-size: 3vmin;
+  text-align: left;
+  height: 180px;
+}
+
+.user {
+  text-align: left;
+  padding: 2px 30px 5px 60px;
+  border-radius: 0px 0px 20px;
+  font-size: 3.2vmin;
+  background: #fff;
+  color: #83aebd;
+  display: inline-block;
+  float: left;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.upcoming {
+  background-color: white;
+  border-radius: 40px;
+  float: right;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+button {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.logo {
+  height: 60px;
+  float: left;
+}

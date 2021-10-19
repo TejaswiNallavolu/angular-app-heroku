@@ -1,0 +1,59 @@
+.studentImage {
+  width: 70%;
+  height: auto;
+  border-radius: 20px;
+}
+
+@media screen and (min-width: 900px) {
+  #container {
+    width: 940px !important;
+  }
+}
+
+h1 {
+  font-size: 26px;
+}
+
+.upcoming {
+  background-color: coral;
+  color: white;
+  border: 2px solid white;
+}
+
+.upcoming:active {
+  border: 2px solid coral;
+
+}
+
+.upcoming:hover {
+  background-color: coral;
+}
+
+/* mobile */
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 18px;
+  }
+
+  .chat {
+    min-width: 300px;
+  }
+
+  .message {
+    height: 85px;
+  }
+
+  .studentImage {
+
+    width: 90%;
+    margin-top: 20px;
+
+    float: left;
+
+  }
+
+  .upcoming {
+    font-size: 12px;
+  }
+}
+
