@@ -1,0 +1,55 @@
+{
+
+    "name":"Class Reminder",
+
+    "short_name":"ClassReminder",
+
+    "scope": "/",
+
+    "start_url":"/",
+
+    "display":"standalone",
+
+    "orientation":"portrait",
+
+    "background_color":"#ffffff",
+
+    "theme_color":"#006747",
+
+    "description":"Simple progressive web app that can be installed on mobile.",
+
+    "icons":[
+        {
+
+            "src":"./images/android-chrome-192x192.png",
+  
+            "sizes":"192x192",
+  
+            "type":"image/png"
+  
+         },
+         {
+
+            "src":"./images/android-chrome-512x512.png",
+  
+            "sizes":"512x512",
+  
+            "type":"image/png"
+  
+         },
+  
+         {
+  
+          "src":"./images/maskable_icon_192.png",
+  
+          "sizes":"192x192",
+  
+          "type":"image/png",
+  
+          "purpose": "maskable"
+  
+       }
+  
+      ]
+  
+    }
