@@ -11,6 +11,7 @@ import { LoginComponent } from './login/login.component';
 import { RouterModule } from '@angular/router';
 import { NotificationComponent } from './user/notification/notification.component';
 import { FooterComponent } from './user/footer/footer.component';
+import { RegisterComponent } from './register/register.component';
 //import { RegisterComponent } from './register/register.component';
 
 @NgModule({
@@ -21,6 +22,7 @@ import { FooterComponent } from './user/footer/footer.component';
     LoginComponent,
     NotificationComponent,
     FooterComponent,
+    RegisterComponent,
    // RegisterComponent
   ],
   imports: [
