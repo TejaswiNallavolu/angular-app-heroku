@@ -12,7 +12,7 @@ import { RouterModule } from '@angular/router';
 import { NotificationComponent } from './user/notification/notification.component';
 import { FooterComponent } from './user/footer/footer.component';
 import { RegisterComponent } from './register/register.component';
-//import { RegisterComponent } from './register/register.component';
+
 
 @NgModule({
   declarations: [
@@ -22,8 +22,8 @@ import { RegisterComponent } from './register/register.component';
     LoginComponent,
     NotificationComponent,
     FooterComponent,
-    RegisterComponent,
-   // RegisterComponent
+    RegisterComponent
+ 
   ],
   imports: [
     BrowserModule,
@@ -32,7 +32,7 @@ import { RegisterComponent } from './register/register.component';
     HttpClientModule,
     RouterModule.forRoot([
       {path: 'login', component: LoginComponent},
-      //{path: 'register', component: RegisterComponent},
+      {path: 'register', component: RegisterComponent},
       {path: '', component: UserComponent}
 /*
 */

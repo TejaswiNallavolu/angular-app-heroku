@@ -197,7 +197,7 @@ input {
 /* Mobile Container */
 @media screen and (max-width: 480px) {
 
-  .sign-in-container 
+  .sign-in-container {
     width: 100%;
   }
 }
