@@ -12,6 +12,7 @@ import { RouterModule } from '@angular/router';
 import { NotificationComponent } from './user/notification/notification.component';
 import { FooterComponent } from './user/footer/footer.component';
 import { RegisterComponent } from './register/register.component';
+import { ListComponent } from './list/list.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { RegisterComponent } from './register/register.component';
     LoginComponent,
     NotificationComponent,
     FooterComponent,
-    RegisterComponent
+    RegisterComponent,
+    ListComponent
  
   ],
   imports: [
