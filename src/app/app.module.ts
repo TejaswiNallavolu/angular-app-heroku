@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { ModalModule } from 'ngx-bootstrap';
+import { ModalModule } from 'ngx-bootstrap/Modal';
 import {FormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
 
