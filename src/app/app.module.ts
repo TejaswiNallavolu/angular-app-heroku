@@ -13,7 +13,7 @@ import { NotificationComponent } from './user/notification/notification.componen
 import { FooterComponent } from './user/footer/footer.component';
 import { RegisterComponent } from './register/register.component';
 import { ListComponent } from './list/list.component';
-
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -32,6 +32,7 @@ import { ListComponent } from './list/list.component';
     ModalModule.forRoot(),
     FormsModule,
     HttpClientModule,
+    ReactiveFormsModule,
     RouterModule.forRoot([
       {path: 'login', component: LoginComponent},
       {path: 'register', component: RegisterComponent},

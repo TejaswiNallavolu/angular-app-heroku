@@ -7,15 +7,28 @@
 
     <div class="col-12">
       <div class="form-container sign-in-container pt-5 pb-5">
-        <form action="#">
-          <input type="email" placeholder="Email" />
-          <input type="password" placeholder="Password" />
-          <input type="password" placeholder="Confirm Password" />
+        <form [formGroup]="signupForm" (ngSubmit)="signUp()">
+          <input
+          [ngClass]="{
+            'is-invalid': signupForm.get('username').errors && signupForm.get('username').touched
+          }" 
+          formControlName="username" placeholder="Email" />
 
-          <button class="signup">Sign Up</button>
+
+          <div class="invalid-feedback" *ngIf="signupForm.get('username').hasError('required') && signupForm.get('username').touched">
+            Please choose a Email
+          </div>
+          <input formControlName="password" type="password" placeholder="Password" />
+
+
+         <!--<input type="password" placeholder="Confirm Password" -->
+
+         <button type="submit" class="btn btn-success">Signup</button>
         </form>
+        <a routerLink="/login">Have an account? SignIn</a>
       </div>
     </div>
 
   </div>
 </div>
+<app-footer></app-footer>

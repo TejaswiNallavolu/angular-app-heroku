@@ -4,14 +4,14 @@
 
     <div class="col-12 col-lg-6">
       <div class="form-container sign-in-container pt-5 pb-5">
-        <form action="#">
+        <form [formGroup]="loginForm" (ngSubmit)="login()">
           <h1>Sign in</h1>
 
           <span>or use your account</span>
-          <input type="email" placeholder="Email" />
-          <input type="password" placeholder="Password" />
+          <input formControlName="username" type="email" placeholder="Email" />
+          <input formControlName="password" type="password" placeholder="Password" />
           <a href="#">Forgot your password?</a>
-          <button>Sign In</button>
+          <button type="submit" class="btn btn-success">Sign In</button>
         </form>
       </div>    </div>
     <div class="col-12 col-lg-6 pt-2">
@@ -25,3 +25,4 @@
   </div>
 </div>
 </div>
+<app-footer></app-footer>

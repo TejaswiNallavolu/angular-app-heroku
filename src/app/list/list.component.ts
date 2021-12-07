@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,9 +8,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListComponent implements OnInit {
 
-  constructor() { }
+  allClassList :any;
+
+  constructor(private http:HttpClient) { }
 
   ngOnInit(): void {
+    this.getAllList();
+  }
+
+  getAllList(){
+    this.http.get<any>('http://www.classreminder-1a.somee.com/api/login/getAllList')
+    .subscribe(res=>{
+      console.log(res);
+      this.allClassList=res;
+    }, err=>{
+      alert('Error');
+    })
   }
 
 }

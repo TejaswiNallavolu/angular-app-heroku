@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html>
+<header></header>
 <!--<head>
     <style>
         .card {
@@ -40,20 +39,19 @@
         </style>
         </head> -->
 
-<body>
-  <div class="row">
-    <div class="column">
+  <div class="row mt-3 mb-3">
+    <div class="col-md-4 justify-content-center" *ngFor="let item of allClassList">
       <div class="card">
-        <h2> Mobile Computing - iOS</h2>
-        <img src="../assets/mc.jpg" alt="mobile computing" style="width:100%">
+        <h2> {{item.className}}</h2>
+        <img src="{{item.image}}" alt="mobile computing" style="width:100%; height: 200px;">
 
-        <p class="title">Time: 2:00 pm - 3:20 pm</p>
-        <p>Venue: CH1400</p>
+        <p class="title"> Time : {{item.time}}</p>
+        <p class="Venue">Venue : {{item.location}}</p>
 
-        <p><button>Canvas</button></p>
+        <p><a class="btn btn-dark btn-lg text-white" href="{{item.link}}">Canvas</a></p>
       </div>
     </div>
-    <div class="column">
+    <!-- <div class="column">
       <div class="card">
         <h2>Graduate Direct Project</h2>
         <img src="../assets/GDP.jpg" alt="Graduate Direct Project" style="width:100%">
@@ -74,10 +72,6 @@
       <p>Venue: CH3300</p>
      
         <p><button>Canvas</button></p>
-      </div>
-    </div>
+      </div> 
+    </div>-->
   
-  </div>
-</body>
-
-</html>
