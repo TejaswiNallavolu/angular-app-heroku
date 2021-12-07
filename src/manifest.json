@@ -21,7 +21,7 @@
     "icons":[
         {
 
-            "src":"./images/android-chrome-192x192.png",
+            "src":"./favicon/android-chrome-192x192.png",
   
             "sizes":"192x192",
   
@@ -30,7 +30,7 @@
          },
          {
 
-            "src":"./images/android-chrome-512x512.png",
+            "src":"./favicon/android-chrome-512x512.png",
   
             "sizes":"512x512",
   
@@ -40,7 +40,7 @@
   
          {
   
-          "src":"./images/maskable_icon_192.png",
+          "src":"./favicon/maskable_icon_192.png",
   
           "sizes":"192x192",
   

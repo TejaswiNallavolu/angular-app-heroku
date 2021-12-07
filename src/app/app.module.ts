@@ -11,6 +11,9 @@ import { LoginComponent } from './login/login.component';
 import { RouterModule } from '@angular/router';
 import { NotificationComponent } from './user/notification/notification.component';
 import { FooterComponent } from './user/footer/footer.component';
+import { RegisterComponent } from './register/register.component';
+import { ListComponent } from './list/list.component';
+
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { FooterComponent } from './user/footer/footer.component';
     HeaderComponent,
     LoginComponent,
     NotificationComponent,
-    FooterComponent
+    FooterComponent,
+    RegisterComponent,
+    ListComponent
+ 
   ],
   imports: [
     BrowserModule,
@@ -28,6 +34,8 @@ import { FooterComponent } from './user/footer/footer.component';
     HttpClientModule,
     RouterModule.forRoot([
       {path: 'login', component: LoginComponent},
+      {path: 'register', component: RegisterComponent},
+      {path: 'list', component: ListComponent},
       {path: '', component: UserComponent}
 /*
 */
