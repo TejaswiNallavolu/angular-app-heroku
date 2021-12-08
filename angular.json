@@ -37,6 +37,7 @@
                   "replace": "src/environments/environment.ts",
                   "with": "src/environments/environment.prod.ts"
                 }
+                
               ],
               "optimization": true,
               "outputHashing": "all",
@@ -58,9 +59,20 @@
                   "maximumError": "10kb"
                 }
               ]
+            },
+            "development": { 
+              "buildOptimizer": false,
+              "optimization": false,
+              "vendorChunk": true,
+              "extractLicenses": false,
+              "sourceMap": true,
+              "namedChunks": true
             }
+            
           }
+          
         },
+        
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
@@ -75,8 +87,9 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "MyTrip:build"
+            "browserTarget": "MyTrip:build:production"
           }
+          
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
@@ -124,4 +137,5 @@
       }
     }},
   "defaultProject": "MyTrip"
+  
 }
