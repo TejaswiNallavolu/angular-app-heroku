@@ -11,5 +11,5 @@ MySql for the database
 | [Tejaswi Reddy Nallavolu](https://github.com/TejaswiNallavolu)      | Front-End-Developer      | S542271@nwmissouri.edu   |
 | [Priyanka Thambabathula](https://github.com/Priyanka1818)   | Back-End-Developer        | S542414@nwmissouri.edu      |
 # Useful Links
-[Link to wiki](https://github.com/TejaswiNallavolu/angular-app-heroku/wiki)
-[Link to issues](
+[Link to wiki](https://github.com/TejaswiNallavolu/angular-app-heroku/wiki)   
+[Link to issues](https://github.com/TejaswiNallavolu/angular-app-heroku/issues)
