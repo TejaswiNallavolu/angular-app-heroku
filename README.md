@@ -1,6 +1,7 @@
 # Class-Reminder-App
-
-- This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.2.
-
-
-- [Backend repo](https://github.com/TejaswiNallavolu/BackEnd-ClassReminderApp/blob/main/README.md)
+We are planning to develop this app using technologies based on c# with DotNet and Angular as front-end.
+As C# is brought up by Microsoft, it is most popularly used for the development of Windows desktop applications.
+Angular is an open-source JavaScript framework most suited to develop this application.
+# External Requirements
+Visual Studio Code    
+MySql for the database
