@@ -8,5 +8,7 @@ MySql for the database
 # My Team   
 | Name      | Role | Email     |
 | :---        |    :----:   | :---          
-| Tejaswi Reddy Nallavolu      | Front-End-Developer      | S542271@nwmissouri.edu   |
-| Priyanka Thambabathula   | Back-End-Developer        | S542414@nwmissouri.edu      |
+| [Tejaswi Reddy Nallavolu](https://github.com/TejaswiNallavolu)      | Front-End-Developer      | S542271@nwmissouri.edu   |
+| [Priyanka Thambabathula](https://github.com/Priyanka1818)   | Back-End-Developer        | S542414@nwmissouri.edu      |
+# Useful Links
+[Link to wiki](
