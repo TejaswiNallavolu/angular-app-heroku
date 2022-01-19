@@ -5,3 +5,8 @@ Angular is an open-source JavaScript framework most suited to develop this appli
 # External Requirements
 Visual Studio Code    
 MySql for the database
+# My Team   
+| Name      | Role | Email     |
+| :---        |    :----:   | :---          
+| Tejaswi Reddy Nallavolu      | Front-End-Developer      | S542271@nwmissouri.edu   |
+| Priyanka Thambabathula   | Back-End-Developer        | S542414@nwmissouri.edu      |
