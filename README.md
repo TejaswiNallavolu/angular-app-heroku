@@ -19,6 +19,6 @@
 | [Priyanka Thambabathula](https://github.com/Priyanka1818)   | Back-End-Developer        | S542414@nwmissouri.edu      |
 
 # Useful Links
-[Wiki](https://github.com/TejaswiNallavolu/angular-app-heroku/wiki)   
-[Issues](https://github.com/TejaswiNallavolu/angular-app-heroku/issues)
-[Project Board](https://github.com/TejaswiNallavolu/angular-app-heroku/projects/1)
+- [Wiki](https://github.com/TejaswiNallavolu/angular-app-heroku/wiki)   
+- [Issues](https://github.com/TejaswiNallavolu/angular-app-heroku/issues)
+- [Project Board](https://github.com/TejaswiNallavolu/angular-app-heroku/projects/1)
