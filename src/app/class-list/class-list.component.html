@@ -1,0 +1,105 @@
+<!-- ClassName: ['', Validators.required],
+      Image: ['', Validators.nullValidator],
+      Time: ['', Validators.nullValidator],
+      Location: ['', Validators.nullValidator],
+      Link: ['', Validators.nullValidator], -->
+
+
+      <form [formGroup]="ClassListForm" (ngSubmit)= "saveClassList()" [hidden]="isDataGridShow">
+        <div class="modal-body">
+            <div class="modal-title"><h3> Class List </h3></div>
+          <div class="card-body">
+
+
+            <div class="row">
+              <div class="col-md-6 form-group">
+                <label for="ClassName">Class Name</label>
+                <input id="ClassName" name="ClassName" type="text"  class="form-control" placeholder="Class Name" formControlName="ClassName">
+            </div>
+           
+            <div class="col-md-6 form-group">
+                <label for="Image">Image</label>
+                <input id="Image" name="Image" type="text"  class="form-control" placeholder="Image Link" formControlName="Image">
+            </div>
+          
+            
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-6 form-group">
+                    <label for="Time">Time</label>
+                    <input id="Time" name="Time" type="text"  class="form-control" placeholder="Time" formControlName="Time">
+                </div>
+
+                <div class="col-md-6 form-group">
+                    <label for="Location">Location</label>
+                    <input id="Location" name="Location" type="text"  class="form-control" placeholder="Location" formControlName="Location">
+                </div>
+
+            </div>
+            <div class="row">
+
+                <div class="col-md-12 form-group">
+                    <label for="Link" >Link</label>
+                    <input id="Link" name="Link" type="text"  class="form-control" placeholder="Link" formControlName="Link">
+                </div>
+
+                
+
+            </div>
+            
+
+           
+        
+
+          </div>
+        </div>
+        <div class="modal-footer justify-content-between">
+            <button type="button" class="btn btn-dark" data-dismiss="modal" (click)="Cancel()">
+              <i class="fas fa-window-close"></i>
+              Close
+            </button>
+            <button type="submit" class="btn btn-primary" [disabled]="!ClassListForm.valid">
+              <i class="fas fa-save"></i>
+              Save
+            </button>
+        </div>
+    </form>
+
+    <div [hidden]="!isDataGridShow">
+        <div>
+            <h3>Class List Form</h3>
+            <button class="btn btn-success" (click)="Create()">Create Class List</button>
+        </div>
+    
+        <table class="table table-border table-striped" >
+            <thead>
+              <tr>
+                <th scope="col">Class Name</th>
+                <th scope="col">Image</th>
+                <th scope="col">Time</th>
+                <th scope="col">Location</th>
+                <th scope="col">Link</th>
+                
+                <th scope="col">Action</th>
+          
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let item of classListData">
+                <td>{{item.className}}</td>
+                <td>{{item.image}}</td>
+                <td>{{item.time}}</td>
+                <td>{{item.location}}</td>
+    
+                <td>{{item.link}}</td>
+                <td>
+                  <button (click)="edit(item.listOfClassesID);" class="btn btn-warning" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal">Edit</button>
+                  <button onclick="return confirm('are you sure?')" (click)="delete(item.listOfClassesID);" class="btn btn-danger">Delete</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+    

@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
-import { ModalModule } from 'ngx-bootstrap/Modal';
+ import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+//import { ModalModule } from 'ngx-bootstrap/Modal';
 import {FormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
 
@@ -14,6 +14,7 @@ import { FooterComponent } from './user/footer/footer.component';
 import { RegisterComponent } from './register/register.component';
 import { ListComponent } from './list/list.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ClassListComponent } from './class-list/class-list.component';
 
 @NgModule({
   declarations: [
@@ -24,12 +25,13 @@ import { ReactiveFormsModule } from '@angular/forms';
     NotificationComponent,
     FooterComponent,
     RegisterComponent,
-    ListComponent
+    ListComponent,
+    ClassListComponent
  
   ],
   imports: [
     BrowserModule,
-    ModalModule.forRoot(),
+    // ModalModule.forRoot(),
     FormsModule,
     HttpClientModule,
     ReactiveFormsModule,
@@ -37,6 +39,7 @@ import { ReactiveFormsModule } from '@angular/forms';
       {path: 'login', component: LoginComponent},
       {path: 'register', component: RegisterComponent},
       {path: 'list', component: ListComponent},
+      {path: 'class-list', component: ClassListComponent},
       {path: '', component: UserComponent}
 /*
 */
