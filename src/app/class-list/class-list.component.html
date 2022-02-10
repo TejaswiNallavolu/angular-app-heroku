@@ -89,8 +89,11 @@
             <tbody>
               <tr *ngFor="let item of classListData">
                 <td>{{item.className}}</td>
-                <td>{{item.image}}</td>
+                <td>
+                  <img src="{{item.image}}" alt="" style="width: 100px; height:100px;">
+                  </td>
                 <td>{{item.time}}</td>
+                
                 <td>{{item.location}}</td>
     
                 <td>{{item.link}}</td>

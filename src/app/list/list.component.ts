@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-list',
@@ -11,6 +12,8 @@ export class ListComponent implements OnInit {
 
   allClassList :any;
 
+  baseUrl:string = environment.baseUrl + 'api/login/';
+
   constructor(private http:HttpClient) { }
 
   ngOnInit(): void {
@@ -18,7 +21,7 @@ export class ListComponent implements OnInit {
   }
 
   getAllList(){
-    this.http.get<any>('http://www.classreminder-1a.somee.com/api/login/getAllList')
+    this.http.get<any>(this.baseUrl + 'getAllList')
     .subscribe(res=>{
       console.log(res);
       this.allClassList=res;

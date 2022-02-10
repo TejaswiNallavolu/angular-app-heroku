@@ -51,7 +51,7 @@ export class ClassListComponent implements OnInit {
 
   getClassList(){
     this.auth.getAllClassList().subscribe(data=>{
-      console.log(data)
+      // console.log(data)
       this.classListData = data.classlist;
 
     },err=>{
@@ -69,17 +69,24 @@ export class ClassListComponent implements OnInit {
       this.ClassListModel.ListOfClassesID = (this.ClassListModel.ListOfClassesID === '') ? null : this.ClassListModel.ListOfClassesID;
       this.auth.postClassList(this.ClassListModel).subscribe(() => {
 
-        alert("Class List Data Saved successfully");
-
-        // if(this.ClassListModel.ListOfClassesID!=null){
-        //   this.toastrService.success('', 'Company division information data updated successfully.');
-        //   this.reload();
+         if(this.ClassListModel.ListOfClassesID!=null){
+          alert("Class List Data Updated successfully");
 
 
-        // }else{
-        //   this.toastrService.success('', 'Company division information data saved successfully.');
-        //   this.reload();
-        // }
+        }else{
+          alert("Class List Data Saved successfully");
+
+        }
+        
+        this.isDataGridShow=true;
+        this.getClassList();
+
+        const url = this.router.url;
+        this.router.navigateByUrl('/list', { skipLocationChange: true }).then(() => {
+          this.router.navigate([url]);
+        });
+
+       
         
       }, error => {
         console.log(error);
@@ -94,7 +101,35 @@ export class ClassListComponent implements OnInit {
   }
 
   edit(classId:any){
+    this.isDataGridShow=false;
 
+     this.auth.getClassById(classId).subscribe(data=>{
+      //  console.log(data);
+       var cls = data.classlist;
+
+      //  ListOfClassesID: ['', Validators.nullValidator],
+      //  ClassName: ['', Validators.required],
+      //  Image: ['', Validators.required],
+      //  Time: ['', Validators.required],
+      //  Location: ['', Validators.required],
+      //  Link: ['', Validators.required],
+
+       this.ClassListForm.controls.ListOfClassesID.setValue(cls.listOfClassesID);
+       this.ClassListForm.controls.ClassName.setValue(cls.className);
+       this.ClassListForm.controls.Image.setValue(cls.image);
+       this.ClassListForm.controls.Time.setValue(cls.time);
+       this.ClassListForm.controls.Location.setValue(cls.location);
+       this.ClassListForm.controls.Link.setValue(cls.link);
+
+     },err=>{
+      console.log(err);
+     })
+     
+
+      
+
+   
+  
   }
 
   delete(classId:any){
@@ -106,5 +141,6 @@ export class ClassListComponent implements OnInit {
       alert("Error in deleting Class Details");
     })
   }
+
 
 }
