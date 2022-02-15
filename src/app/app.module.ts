@@ -15,6 +15,7 @@ import { RegisterComponent } from './register/register.component';
 import { ListComponent } from './list/list.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ClassListComponent } from './class-list/class-list.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ClassListComponent } from './class-list/class-list.component';
     FooterComponent,
     RegisterComponent,
     ListComponent,
-    ClassListComponent
+    ClassListComponent,
+    HomeComponent
  
   ],
   imports: [
@@ -36,7 +38,11 @@ import { ClassListComponent } from './class-list/class-list.component';
     HttpClientModule,
     ReactiveFormsModule,
     RouterModule.forRoot([
+      {path: '', component: HomeComponent},
+      {path: 'home', redirectTo: '', pathMatch: 'full'},
+
       {path: 'login', component: LoginComponent},
+
       {path: 'register', component: RegisterComponent},
       {path: 'list', component: ListComponent},
       {path: 'class-list', component: ClassListComponent},

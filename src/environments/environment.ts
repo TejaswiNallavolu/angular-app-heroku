@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  baseUrl:'http://localhost:23672/',
+  baseUrl:'http://www.classreminderproj.somee.com/',
+  apiUrl:'http://www.classreminderproj.somee.com/api/'
 };
 
 /*

@@ -7,18 +7,14 @@
 
     <div class="col-12">
       <div class="form-container sign-in-container pt-5 pb-5">
-        <form [formGroup]="signupForm" (ngSubmit)="signUp()">
+        <form [formGroup]="registerForm" (ngSubmit)="register()">
           <input
-          [ngClass]="{
-            'is-invalid': signupForm.get('username').errors && signupForm.get('username').touched
-          }" 
-          formControlName="username" placeholder="Email" />
+         
+          formControlName="email" placeholder="Email" />
 
 
-          <div class="invalid-feedback" *ngIf="signupForm.get('username').hasError('required') && signupForm.get('username').touched">
-            Please choose a Email
-          </div>
           <input formControlName="password" type="password" placeholder="Password" />
+          <input formControlName="confirmPassword" type="password" placeholder="Confirm Password" />
 
 
          <!--<input type="password" placeholder="Confirm Password" -->

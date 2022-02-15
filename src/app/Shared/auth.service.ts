@@ -13,6 +13,7 @@ export class AuthService {
   constructor(private http:HttpClient) { }
 
   classUrl:string = environment.baseUrl + 'api/ClassList/';
+  apiUrl:string=environment.apiUrl;
 
   
 
@@ -30,6 +31,29 @@ export class AuthService {
 
   getAllClassList(): Observable<any> {
     return this.http.get<any>(this.classUrl + 'getAllClassList');
+  }
+
+
+  login(model: any) {
+    return this.http.post<any>(this.apiUrl + 'Account/Login', model)
+    .pipe(
+      map((response: any) => {
+        console.log(response);
+        const user = response;
+        localStorage.setItem('token', user.email);
+        
+      })
+    );
+  }
+
+
+  isLoggedIn() {
+    const token = localStorage.getItem('token');
+    return !!token;
+  }
+
+  register(model: any) {
+    return this.http.post(this.apiUrl + 'Account/Register', model);
   }
 
 }
