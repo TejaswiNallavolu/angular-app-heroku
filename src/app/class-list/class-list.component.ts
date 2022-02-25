@@ -124,12 +124,6 @@ export class ClassListComponent implements OnInit {
      },err=>{
       console.log(err);
      })
-     
-
-      
-
-   
-  
   }
 
   delete(classId:any){

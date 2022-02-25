@@ -17,7 +17,7 @@ app.use(express.static('./dist/my-trip'));
 
 app.get('/*', function(req, res){
     res.sendFile('index.html', {root: 'dist/my-trip/'},
-);
+    );
 });
 // Start the app by listening on the default Heroku port
 app.listen(process.env.PORT || 8080);
