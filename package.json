@@ -13,7 +13,7 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "~13.2.2",
-    "@angular/cli": "^13.2.3",
+    "@angular/cli": "^13.2.4",
     "@angular/common": "~13.2.2",
     "@angular/compiler": "~13.2.2",
     "@angular/compiler-cli": "^13.2.2",
@@ -35,7 +35,7 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^13.2.3",
-    "@angular/cli": "^13.2.3",
+    "@angular/cli": "^13.2.4",
     "@angular/compiler": "~13.2.2",
     "@angular/compiler-cli": "^13.2.2",
     "@angular/language-service": "~13.2.2",
