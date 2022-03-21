@@ -28,4 +28,4 @@
 -  [Proposal](https://github.com/TejaswiNallavolu/proposal)
 
 ## Testing
-- - [Sonarcloud Report](https://sonarcloud.io/project/overview?id=TejaswiNallavolu_angular-app-heroku)
+- [Sonarcloud Report](https://sonarcloud.io/project/overview?id=TejaswiNallavolu_angular-app-heroku)
