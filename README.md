@@ -26,3 +26,6 @@
 -  [Back-end Repo](https://github.com/TejaswiNallavolu/BackEnd-ClassReminderApp)
 -  [RFP](https://github.com/harshakurra123/ClassRemainder)
 -  [Proposal](https://github.com/TejaswiNallavolu/proposal)
+
+## Testing
+- - [Sonarcloud Report](https://sonarcloud.io/project/overview?id=TejaswiNallavolu_angular-app-heroku)
