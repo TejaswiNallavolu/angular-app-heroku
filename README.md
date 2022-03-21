@@ -35,4 +35,4 @@
 - [Sonarcloud Report](https://sonarcloud.io/project/overview?id=TejaswiNallavolu_angular-app-heroku)
 
 ## Documentation site
-- We have used [Swagger](https://app.swaggerhub.com/apis-docs/TejaswiNallavolu/auth-project/v1#/Account/post_api_Account_Login) for API Documentation.
+- We have used [Swagger](https://app.swaggerhub.com/apis-docs/TejaswiNallavolu/auth-project/v1#/) for API Documentation.
