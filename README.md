@@ -1,5 +1,6 @@
 # Class-Reminder-App [![Codacy Badge](https://app.codacy.com/project/badge/Grade/41ca830b8b6a4dd591510ea9141fa352)](https://www.codacy.com/gh/TejaswiNallavolu/angular-app-heroku/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=TejaswiNallavolu/angular-app-heroku&amp;utm_campaign=Badge_Grade)
 [![Known Vulnerabilities](https://snyk.io/test/github/{TejaswiNallavolu}/{angular-app-heroku}/badge.svg)](https://snyk.io/test/github/{TejaswiNallavolu}/{angular-app-heroku})
+[![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=com.lapots.breed.judge:judge-rule-engine&metric=alert_status)](https://sonarcloud.io/dashboard?id=com.lapots.breed.judge:judge-rule-engine)
 
 -  **Class-Reminder App** makes it easy to stay connected to your school community whether you're in the classroom, at home or anywhere in between. Communicate in real-time on any device.
 -  We are planning to develop this app using technologies based on c# with **DotNet** as back-end and **Angular** as front-end.
