@@ -4,6 +4,7 @@ import {map} from 'rxjs/operators';
 import { environment } from 'src/environments/environment';
 import { Observable } from 'rxjs';
 
+@Injectable()
 export class AuthService {
 
   constructor(private http:HttpClient) { }

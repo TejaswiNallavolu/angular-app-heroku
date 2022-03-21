@@ -17,10 +17,10 @@ export class LoginComponent implements OnInit {
   constructor(private fb : FormBuilder, private http:HttpClient, private route: ActivatedRoute, private router : Router, private authService: AuthService) { }
 
   ngOnInit(): void {
-    // this.loginForm=this.formbBuilder.group({
-    //   username : [''],
-    //   password : ['']
-    // });
+     this.loginForm=this.fb.group({
+      username : [''],
+      password : ['']
+     });
 
     this.CreateLoginForm();
   }
@@ -44,30 +44,31 @@ export class LoginComponent implements OnInit {
 
 
   CreateLoginForm() {
-    this.loginForm = this.fb.group({
-      email: ['', [Validators.required, Validators.email]],
-      password: ['', [Validators.required]],
-      rememberMe: [true]
-    });
+    console.log("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
+    // this.loginForm = this.fb.group({
+    //   email: ['', [Validators.required, Validators.email]],
+    //   password: ['', [Validators.required]],
+    //   rememberMe: [true]
+    // });
   }
 
   login() {
-    if (this.loginForm.valid) {
-      this.model = Object.assign({}, this.loginForm.value);
-      this.authService.login(this.model).subscribe(data => {
-          alert("login success");
-          this.router.navigate(['/list']);
-        },
-        (error) => {
+    // if (this.loginForm.valid) {
+    //   this.model = Object.assign({}, this.loginForm.value);
+    //   this.authService.login(this.model).subscribe(data => {
+    //       alert("login success");
+    //       this.router.navigate(['/list']);
+    //     },
+    //     (error) => {
          
-          console.log(error);
-        },
-        () => {
-          // window.location.href = localStorage.getItem('index');
-          // window.location.href = '2fa';
-        }
-      );
-    } 
+    //       console.log(error);
+    //     },
+    //     () => {
+    //       // window.location.href = localStorage.getItem('index');
+    //       // window.location.href = '2fa';
+    //     }
+    //   );
+    // } 
   }
 
 }

@@ -16,7 +16,7 @@ import { ListComponent } from './list/list.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ClassListComponent } from './class-list/class-list.component';
 import { HomeComponent } from './home/home.component';
-
+import { AuthService } from '../app/Shared/auth.service'
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,6 +31,7 @@ import { HomeComponent } from './home/home.component';
     HomeComponent
  
   ],
+  providers: [ AuthService ],
   imports: [
     BrowserModule,
     // ModalModule.forRoot(),

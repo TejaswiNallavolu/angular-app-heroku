@@ -148,7 +148,6 @@
           "builder": "angular-cli-ghpages:deploy"
         }
       }
-    }},
+    },
   "defaultProject": "MyTrip"
-  
 }
