@@ -69,9 +69,9 @@
    `ng test -- --no-watch --no-progress --browsers=ChromeHeadlessCI`
 
 ## Links to API-
-- [Login API](http://www.classreminder-1a.somee.com/api/login/allUser)
-- [List of classes API](http://www.classreminder-1a.somee.com/api/login/getAllList)
-- [Link to class-list API](http://www.classreminderproj.somee.com/api/ClassList/getAllClassList)
+<!--- [Login API](http://www.classreminder-1a.somee.com/api/login/allUser) 
+- [List of classes API](http://www.classreminder-1a.somee.com/api/login/getAllList) -->
+- [Link to class-list API](http://www.classreminderproj.somee.com/api/ClassList/getAllClassList) 
 
 ## Code quality
 - [Codacy](https://app.codacy.com/gh/TejaswiNallavolu/angular-app-heroku/dashboard?utm_source=github.com&utm_medium=referral&utm_content=TejaswiNallavolu/angular-app-heroku&utm_campaign=Badge_Grade)
