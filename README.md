@@ -28,6 +28,42 @@
 -  [RFP](https://github.com/harshakurra123/ClassRemainder)
 -  [Proposal](https://github.com/TejaswiNallavolu/proposal)
 
+## Project Setup
+
+### Prerequisites
+
+You need to have Node and NPM installed on your PC.
+
+[Downloading and installing Node.js and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+
+### How To Install
+
+Download the source code using git or else download and unzip the zip file.
+
+Open a terminal window and go to the project root folder.
+
+You need to have npm installed globally.
+
+Run `npm i` to install the required libraries.
+
+### How To Run
+
+Run `ng serve` for a dev server.
+
+Navigate to `http://localhost:4200/`.
+
+The browser will automatically reload if you change any of the source files.
+
+### How To Run Unit Tests
+
+To run the unit tests, you need to stop the server.
+ 
+If the server is running, stop the server from the terminal window by pressing *Control-C*.
+
+To run the unit tests, Run the following command in the terminal window.
+
+`ng test -- --no-watch --no-progress --browsers=ChromeHeadlessCI`
+
 ## Links to API-
 - [Login API](http://www.classreminder-1a.somee.com/api/login/allUser)
 - [List of classes API](http://www.classreminder-1a.somee.com/api/login/getAllList)
