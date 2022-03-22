@@ -75,5 +75,7 @@
 ## Testing
 - [Sonarcloud Report](https://sonarcloud.io/project/overview?id=TejaswiNallavolu_angular-app-heroku)
 
+   ![SonarCloud](https://github.com/TejaswiNallavolu/angular-app-heroku/blob/main/src/assets/SonarCloud.JPG)
+
 ## Documentation site
 - We have used [Swagger](https://app.swaggerhub.com/apis-docs/TejaswiNallavolu/auth-project/v1#/) for API Documentation.
