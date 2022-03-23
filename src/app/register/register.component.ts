@@ -10,6 +10,13 @@ import { AuthService } from '../Shared/auth.service';
   templateUrl: './register.component.html',
   styleUrls: ['./register.component.css']
 })
+
+@Component({
+  selector: 'app-home',
+  templateUrl: './home.component.html',
+  styleUrls: ['./home.component.css']
+})
+
 export class RegisterComponent implements OnInit {
 
   // public signupForm !: FormGroup;
