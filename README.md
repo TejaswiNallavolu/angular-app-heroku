@@ -85,5 +85,5 @@
 - We have used [Swagger](https://app.swaggerhub.com/apis-docs/TejaswiNallavolu/auth-project/v1#/) for API Documentation.
 
 ## Deployment
-- How to deploy angular app to heroku. [Decumentation site](https://www.javaguides.net/2020/11/how-to-deploy-angular-application-to-heroku.html)
+- How to deploy angular app to heroku. [Documentation site](https://www.javaguides.net/2020/11/how-to-deploy-angular-application-to-heroku.html)
 
