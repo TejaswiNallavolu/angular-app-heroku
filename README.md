@@ -4,8 +4,8 @@
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=com.lapots.breed.judge:judge-rule-engine&metric=coverage)](https://sonarcloud.io/dashboard?id=com.lapots.breed.judge:judge-rule-engine)
  
  
- [![GitHub stars](https://img.shields.io/github/stars/TejaswiNallavolu/angular-app-heroku.svg?style=social&label=Star)](https://github.com/TejaswiNallavolu/angular-app-heroku)
-[![GitHub forks](https://img.shields.io/github/forks/TejaswiNallavolu/angular-app-heroku.svg?style=social&label=Fork)](https://github.com/TejaswiNallavolu/angular-app-heroku)
+<!-- [![GitHub stars](https://img.shields.io/github/stars/TejaswiNallavolu/angular-app-heroku.svg?style=social&label=Star)](https://github.com/TejaswiNallavolu/angular-app-heroku)
+[![GitHub forks](https://img.shields.io/github/forks/TejaswiNallavolu/angular-app-heroku.svg?style=social&label=Fork)](https://github.com/TejaswiNallavolu/angular-app-heroku) -->
 -  **Class-Reminder App** makes it easy to stay connected to your school community whether you're in the classroom, at home or anywhere in between. Communicate in real-time on any device.
 -  We are planning to develop this app using technologies based on c# with **DotNet** as back-end and **Angular** as front-end.
 -  As **C#** is brought up by Microsoft, it is most popularly used for the development of Windows desktop applications.
@@ -85,5 +85,5 @@
 - We have used [Swagger](https://app.swaggerhub.com/apis-docs/TejaswiNallavolu/auth-project/v1#/) for API Documentation.
 
 ## Deployment
-- How to deploy angular app to heroku. [Decumentation site](https://www.javaguides.net/2020/11/how-to-deploy-angular-application-to-heroku.html)
+- How to deploy angular app to heroku. [Documentation site](https://www.javaguides.net/2020/11/how-to-deploy-angular-application-to-heroku.html)
 
