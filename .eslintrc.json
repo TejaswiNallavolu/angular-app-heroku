@@ -9,14 +9,16 @@
         "*.ts"
       ],
       "parserOptions": {
-        "ecmaVersion": 2017,
+        "ecmaVersion": "latest",
         "project": [
           "tsconfig.json"
         ],
         "createDefaultProgram": true
       },
       "env": {
-        "es6": true
+        "es6": true,
+        "browser": true,
+        "node": true
     },
       "extends": [
         "plugin:@angular-eslint/recommended",
