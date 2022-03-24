@@ -16,9 +16,7 @@ jobs:
     - name: Install dependencies
       run: npm install
     - name: Install Angular CLI
-      run: npm install -g @angular/cli > /dev/null    
-    - name: Run Test
-      run: npm run test:ci  
+      run: npm install -g @angular/cli > /dev/null   
     - name: Run linters
       uses: wearerequired/lint-action@v1
       with:
