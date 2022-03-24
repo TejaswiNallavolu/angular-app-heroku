@@ -6,7 +6,7 @@
     "start": "node server.js",
     "build": "ng build --prod",
     "test": "ng test",
-    "lint": "ng lint",
+    "lint": "eslint.js",
     "e2e": "ng e2e",
     "heroku-postbuild": "ng build --prod"
   },
