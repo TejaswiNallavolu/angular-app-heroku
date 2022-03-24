@@ -17,7 +17,13 @@ jobs:
       run: npm install
     - name: Install Angular CLI
       run: npm install -g @angular/cli > /dev/null    
-    - name: Run linters and prettier fix
-      run: npm run all-lints
     - name: Run Test
       run: npm run test:ci  
+    - name: Run linters
+      uses: wearerequired/lint-action@v1
+      with:
+        github_token: ${{ secrets.github_token }}
+      # Enable linters
+        eslint: true
+        prettier: true
+  
