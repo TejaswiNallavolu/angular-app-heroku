@@ -1,0 +1,23 @@
+name: Pull Request Validations
+
+on: [push, pull_request]
+
+jobs:  
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v1
+    - name: Install node
+      uses: actions/setup-node@v1 #this will install Node and npm on Ubuntu
+      with:
+        node-version: '14.x'
+    - name: Install dependencies
+      run: npm install
+    - name: Install Angular CLI
+      run: npm install -g @angular/cli > /dev/null    
+    - name: Run linters and prettier fix
+      run: npm run all-lints
+    - name: Run Test
+      run: npm run test:ci  
