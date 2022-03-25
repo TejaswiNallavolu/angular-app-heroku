@@ -13,6 +13,6 @@ jobs:
       - run: git status
       # commit any changed files
       # https://github.com/TejaswiNallavolu/angular-app-heroku
-      - uses: TejaswiNallavolu/angular-app-heroku@master
+      - uses: TejaswiNallavolu/angular-app-heroku@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
