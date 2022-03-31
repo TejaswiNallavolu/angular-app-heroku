@@ -16,7 +16,9 @@ import { ListComponent } from './list/list.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ClassListComponent } from './class-list/class-list.component';
 import { HomeComponent } from './home/home.component';
-import { AuthService } from '../app/Shared/auth.service'
+import { AuthService } from '../app/Shared/auth.service';
+import { RegisterTwoComponent } from './register-two/register-two.component';
+import { GithubLoginComponent } from './github-login/github-login.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +30,9 @@ import { AuthService } from '../app/Shared/auth.service'
     RegisterComponent,
     ListComponent,
     ClassListComponent,
-    HomeComponent
+    HomeComponent,
+    RegisterTwoComponent,
+    GithubLoginComponent
  
   ],
   providers: [ AuthService ],
@@ -41,10 +45,10 @@ import { AuthService } from '../app/Shared/auth.service'
     RouterModule.forRoot([
       {path: '', component: HomeComponent},
       {path: 'home', redirectTo: '', pathMatch: 'full'},
-
+      //  {path: 'register', component:RegisterComponent},
       {path: 'login', component: LoginComponent},
-
-      {path: 'register', component: RegisterComponent},
+      {path: 'register', component: RegisterTwoComponent},
+      {path: 'github-login', component: GithubLoginComponent},
       {path: 'list', component: ListComponent},
       {path: 'class-list', component: ClassListComponent},
       {path: '', component: UserComponent}
