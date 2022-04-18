@@ -12,8 +12,11 @@
 - We are planning to develop this app using technologies based on c# with **DotNet** as back-end and **Angular** as front-end.
 - As **C#** is brought up by Microsoft, it is most popularly used for the development of Windows desktop applications.
 - **Angular** is an open-source JavaScript framework most suited to develop this application.
- ## Demo
- ![demo](https://github.com/TejaswiNallavolu/angular-app-heroku/blob/main/UI%20Screens/classreminder.gif)
+
+## Demo
+
+![demo](https://github.com/TejaswiNallavolu/angular-app-heroku/blob/main/UI%20Screens/classreminder.gif)
+
 ## External Requirements
 
 - Visual Studio Code
