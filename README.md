@@ -14,6 +14,7 @@
 - **Angular** is an open-source JavaScript framework most suited to develop this application.
 
 ## Demo
+
 <p align="center">
   <h3 align="center">Our App Demo</h3>
 
