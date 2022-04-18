@@ -14,8 +14,24 @@
 - **Angular** is an open-source JavaScript framework most suited to develop this application.
 
 ## Demo
+<p align="center">
+  <h3 align="center">Our App Demo</h3>
 
-![demo](https://github.com/TejaswiNallavolu/angular-app-heroku/blob/main/UI%20Screens/classreminder.gif)
+  <p align="center">
+     Angular 13 + DotNet + MySQL + Azure
+    <br>
+    <br>
+    :clap::clap::tada::tada::tada::tada::clap::clap:
+    <br>
+    <br>
+    Project contains Login, register, CRUD, and much more!
+    <br>
+    <br>
+    <img src="https://github.com/TejaswiNallavolu/angular-app-heroku/blob/main/UI%20Screens/classreminder.gif" alt="Demo example"/>
+    <br>
+    <br>
+  </p>
+</p>
 
 ## External Requirements
 
