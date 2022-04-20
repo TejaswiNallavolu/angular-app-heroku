@@ -67,3 +67,4 @@
 - [Codacy](https://app.codacy.com/gh/TejaswiNallavolu/angular-app-heroku/dashboard?utm_source=github.com&utm_medium=referral&utm_content=TejaswiNallavolu/angular-app-heroku&utm_campaign=Badge_Grade)
 - [Swagger](https://app.swaggerhub.com/apis-docs/TejaswiNallavolu/auth-project/v1#/)
 - [Code Coverage](https://sonarcloud.io/code?id=TejaswiNallavolu_angular-app-heroku)
+- [Link to class-list API](http://www.classreminderproj.somee.com/api/ClassList/getAllClassList)
