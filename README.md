@@ -57,6 +57,8 @@
 - [Back-end Repo](https://github.com/TejaswiNallavolu/BackEnd-ClassReminderApp)
 - [RFP](https://github.com/harshakurra123/ClassRemainder)
 - [Proposal](https://github.com/TejaswiNallavolu/proposal)
+- [UI Sketches](https://github.com/TejaswiNallavolu/angular-app-heroku/tree/main/UI%20Screens)
+- [Final Project Documentation](https://github.com/TejaswiNallavolu/angular-app-heroku/blob/main/Presentation/Documentation.md)
 
 ## Project Setup
 
