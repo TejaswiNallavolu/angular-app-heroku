@@ -53,7 +53,7 @@
 
 - [Wiki](https://github.com/TejaswiNallavolu/angular-app-heroku/wiki)
 - [Issues](https://github.com/TejaswiNallavolu/angular-app-heroku/issues)
-- [Actions](https://github.com/TejaswiNallavolu/angular-app-heroku/blob/main/.github/workflows/github-actions-demo.yml)
+- [Actions](https://github.com/TejaswiNallavolu/angular-app-heroku/actions/workflows/github-actions-demo.yml)
 - [Project Board](https://github.com/TejaswiNallavolu/angular-app-heroku/projects/1)
 - [Back-end Repo](https://github.com/TejaswiNallavolu/BackEnd-ClassReminderApp)
 - [RFP](https://github.com/harshakurra123/ClassRemainder)
